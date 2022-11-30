@@ -9,6 +9,6 @@ list_one = []
 for i in range(10):
     list_one.append(random.randrange(-100, 100))
 print(list_one)
-list_one[3] = random.randrange(-100, 100)
+list_one[2] = random.randrange(-100, 100)
 list_one.pop(6)
 print(list_one)
