@@ -53,7 +53,6 @@ while True:
             else:
                 result['success'] = False
                 result['description'] = "неизвестный оператор"
-            print(result)
         else:
             result['success'] = False
             result['description'] = "Неизвестная страна"
