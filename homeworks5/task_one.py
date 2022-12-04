@@ -8,9 +8,10 @@
 
 operators = {'1': 'A1', '2': 'MTC', '3': 'A1', '5': 'MTC', '6': 'A1',
              '7': 'MTC', '8': 'MTC', '9': 'A1'}
-error = False
+
 
 while True:
+    error = False
     result = {}
     users_input = input("Введите номер в международном формате:")
 
