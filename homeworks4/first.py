@@ -1,4 +1,4 @@
-a = {'a': 1, 'b': 2, 'c': 3}
+'''a = {'a': 1, 'b': 2, 'c': 3}
 b = {'c': 3, 'd': 4, 'e': 5}
 ab = {}
 for key in a.keys():
@@ -11,3 +11,12 @@ for key in b.keys():
         ab[key] = [None, b[key]]
 
 print(ab)
+'''
+a = {'a': 1, 'b': 2, 'c': 3}
+b = {'c': 3, 'd': 4, 'e': 5}
+ab = {}
+
+a_keys = list(a.keys)
+b_keys = list(b.keys)
+
+common_keys = list(set())
