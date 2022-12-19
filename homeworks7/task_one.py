@@ -11,5 +11,5 @@ def get_winners(results):
     return index_list
 
 
-results = [500, 550, 300, 590, 100, 599]
+results = [593, 550, 300, 592, 100,1]
 print(get_winners(results))
